@@ -1,0 +1,54 @@
+.a1{
+  background: #ffffff!important;
+  position: relative;
+}
+
+.a1 a{
+    color: #000000!important;
+    padding-left:20px;
+}
+.a1 a:active{
+    border-bottom: 2px solid #fff;
+}
+
+
+.news{
+width:900px!important;
+padding-right:0px!important;
+float:left;
+}
+
+.news-recent{
+width:400px;
+margin-left:900px;
+padding-left:50px;
+}
+
+#first{
+height:484px;
+background:#5499C7;
+        border: 1px solid black;
+    }
+    #second{
+    background:#48C9B0;
+    border : 1px solid black;
+padding:52px;
+    }
+    #third{
+    background:#F0B27A;
+    border : 1px solid black;
+margin-top:30px;
+padding:20px;
+
+    }
+    #four{
+    background:#F7DC6F;
+    border : 1px solid black;
+    padding : 40px;
+   }
+   #five{
+   background:#C39BD3;
+   margin-top:30px;
+    border : 1px solid black;
+    padding:20px;
+   }
