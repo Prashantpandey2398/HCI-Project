@@ -6,46 +6,49 @@
 {% block content %}
 <nav class="a1">
     <div class="nav-wrapper">
-      <ul class="left hide-on-med-and-down">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Club</a></li>
-        <li><a href="#">Hostel</a></li>
-        <li><a href="#">Suggestions and Complaints</a></li>
-        <li><a href="#">Help</a></li>
-      </ul>
+        <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/dac">DAC</a></li>
+            <li><a href="/marks">Marks</a></li>
+            <li><a href="/feedback">Suggestions and Complaints</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
     </div>
-  </nav>
-  <div class="row">
-    <div class="news">
-      <div class="card">
-        <div class="card-image">
-          <img src="{% static 'images/1.png' %}">
+</nav>
+<div class="row" style="margin-bottom: 10px;!important" >
+    <div class="col s12 m8" id="image">
+     <div class="card row">
+            <div class="center" >
+                <img style="margin-top: 20px!important;" src="{% static 'images/12.jpg' %}">
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+            </div>
         </div>
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-        </div>
-      </div>
     </div>
-        <div class="news-recent">
-          <h4 style="align:center;">Recent News</h4>
-            <ul class="collapsible">
-    <li class="active">
-      <div class="collapsible-header">April 16, 2018</div>
-      <div class="collapsible-body"><span>Leadership Talk : Prof. Deshdeep Sahdev</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header">April 07, 2018</div>
-      <div class="collapsible-body"><span>Closing Ceremony (Techno-Cultural Fest)</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header">April 05, 2018</div>
-      <div class="collapsible-body"><span>Opening Ceremony (Techno-Cultural Fest)</span></div>
-    </li>
-  </ul>
-        </div>
 
-      </div>
+
+    <div class="col s12 m4">
+
+        <h4 >Recent News</h4>
+        <ul class="collapsible">
+            <li class="active">
+                <div class="collapsible-header">April 16, 2018</div>
+                <div class="collapsible-body"><span>Leadership Talk : Prof. Deshdeep Sahdev</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">April 07, 2018</div>
+                <div class="collapsible-body"><span>Closing Ceremony (Techno-Cultural Fest)</span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">April 05, 2018</div>
+                <div class="collapsible-body"><span>Opening Ceremony (Techno-Cultural Fest)</span></div>
+            </li>
+        </ul>
+    </div>
+
+</div>
 
 {% endblock %}

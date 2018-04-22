@@ -1,0 +1,124 @@
+{% extends 'sis/base.html' %}
+{% load staticfiles %}
+{% block css %}
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/hitesh.css' %}">
+{% endblock %}
+{% block content %}
+
+<div style=" max-width: 100%;
+    overflow-x: hidden;">
+    <nav class="a1">
+        <div class="nav-wrapper">
+            <ul class="left hide-on-med-and-down">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Club</a></li>
+                <li><a href="#">Hostel</a></li>
+                 <li><a href="#">DAC</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--// abhinav add content here-->
+    <!--//START-->
+
+    <div>
+        <div class="row">
+
+            <div class="col s9 m9 " id="leftsldider">
+                <!--<div class="carousel carousel-slider">-->
+
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="https://unsplash.it/1920/1080?random">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="https://unsplash.it/1920/1080?random">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="https://unsplash.it/1920/1080?random">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="https://unsplash.it/1920/1080?random">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="https://unsplash.it/1920/1080?random">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="{% static 'images/123.jpg' %}">-->
+                <!--</div>-->
+                <!--<div class="carousel-item" href="https://google.com" target="_blank"><img-->
+                <!--src="{% static 'images/12.jpg' %}">-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="col s8 ">-->
+
+                <div class="carousel carousel-slider centre">
+                    <div class="carousel-item " href="#one!">
+                        <img src="https://unsplash.it/1920/1080?random">
+                    </div>
+                    <div class="carousel-item " href="#two!">
+                        <img src="https://unsplash.it/1920/1080?random"></div>
+                    <div class="carousel-item " href="#three!">
+                        <img src="https://unsplash.it/1920/1080?random"></div>
+                    <div class="carousel-item " href="#four!">
+                        <img src="https://unsplash.it/1920/1080?random"></div>
+                    <div class="carousel-item " href="#four!">
+                        <img src="https://unsplash.it/1920/1080?random"></div>
+                    <div class="carousel-item " href="#four!">
+                        <img src="{% static 'images/123.jpg' %}"></div>
+                    <div class="carousel-item " href="#four!">
+                        <img src="{% static 'images/12.jpg' %}"></div>
+                </div>
+            </div>
+            <div class="col s12 m3" id="rightsldider">
+                <div class="section">
+                    <h5>Current</h5>
+                    <div class="cgpa" style="margin-top:20px!important;">
+                        <span class="event">CGPA:</span>
+                        <span class="event">&nbsp;&nbsp;8</span>
+                    </div>
+                    <br>
+                    <div class="cgpa" style="margin-bottom:10px!important;">
+                        <span class="event">SGPA:</span>
+                        <span class="event">&nbsp;&nbsp;8</span>
+                    </div>
+                </div>
+                <div class="section" style="margin-top:20px!important;">
+                    <h5>Semester 2</h5>
+                    <div class="cgpa" style="margin-top:20px!important;">
+                        <span class="event">CGPA:</span>
+                        <span class="event">&nbsp;&nbsp;8</span>
+                    </div>
+                    <br>
+                    <div class="cgpa" style="margin-bottom:10px!important;">
+                        <span class="event">SGPA:</span>
+                        <span class="event">&nbsp;&nbsp;8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--//END-->
+
+{% endblock %}
+
+{% block js %}
+<script>
+
+
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
+
+
+</script>
+
+{% endblock %}

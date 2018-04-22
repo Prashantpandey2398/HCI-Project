@@ -1,0 +1,144 @@
+{% extends 'sis/base.html' %}
+{% load staticfiles %}
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{% static 'css/abhinav.css' %}">
+{% endblock %}
+{% block content %}
+<nav class="a1">
+    <div class="nav-wrapper">
+      <ul class="left hide-on-med-and-down">
+        <li ><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Club</a></li>
+        <li><a href="#">Hostel</a></li>
+        <li class="active"><a href="#">Suggestions and Complaints</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ <!--abhinav add content here-->
+<!--START-->
+
+<div >
+    <div id="first">
+	<label> <center><b><h5>Reciepent</h5></b></center> </label>
+
+	<select class="browser-default">
+    <option value="1" >Select feedback person</option>
+    <option value="2">Option 1</option>
+    <option value="3">Option 2</option>
+    <option value="4">Option 3</option>
+  </select>
+   <div style="margin-top: 20px;">
+   <p>
+    <form action="#">
+
+
+      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+      <label for="filled-in-box"><h6>Make Anonymous<h6></label>
+     </form>
+     </p></div>
+	</div>
+    <div id="second">
+	<label> <center><b><h5>Details</h5></b></center> </label>
+
+<div class="col">
+    <div class="input-field col s6">
+      <input  id="first_name2" type="text" class="validate">
+      <label class="active" for="first_name2">Subject</label>
+    </div>
+	<div class="input-field col s6">
+      <input  id="first_name2" type="text" class="validate">
+      <label class="active" for="first_name2">Message</label>
+    </div>
+  </div>
+
+	</div>
+
+    <div id="third"> <form action="#">
+
+
+	<label> <center><b><h5>Attach FIles</h5></b></center> </label>
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>File</span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Upload one or more files">
+      </div>
+    </div>
+  </form>
+  <p class="center-align">
+   <a href="#!" class="btn waves-effect waves-teal">Remove</a>
+   </p>
+       </div>
+</div>
+
+<div class="center-align" >
+
+ <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+  <button class="btn waves-effect waves-light">Clear
+  </button>
+
+</div>
+<div>
+<div id="fourth">
+<table>
+        <thead>
+          <tr>
+              <th>
+
+	<select class="browser-default">
+    <option value="1" >Filter</option>
+    <option value="2">Option 1</option>
+    <option value="3">Option 2</option>
+    <option value="4">Option 3</option>
+  </select>
+			  </th>
+              <th>
+			   <label> <center><b><h4>Feedback History</h4></b></center> </label>
+			  </th>
+              <th>Page 1 of 1</th>
+          </tr>
+        </thead>
+    </table>
+	<div id="fifth">
+	 <table>
+        <thead>
+          <tr>
+              <th>Date</th>
+              <th>Subject</th>
+              <th>Message</th>
+			  <th>Reciepent</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>19 March 2018</td>
+            <td>XYZ</td>
+            <td>ABCDEFGHIJK</td>
+			<td>Dr. ABC</td>
+          </tr>
+          <tr>
+            <td>10 February 2018</td>
+            <td>ABC</td>
+            <td>LMNOPQRSTUVWXYZ</td>
+			<td>Dr. XYZ</td>
+          </tr>
+        </tbody>
+      </table>
+	</div>
+  </div>
+
+</div>
+</div>
+
+<!--END-->
+{% endblock %}
+{% block js %}
+{% endblock %}

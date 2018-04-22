@@ -1,0 +1,73 @@
+{% extends 'sis/base.html' %}
+{% load staticfiles %}
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{% static 'css/tushar.css' %}">
+{% endblock %}
+{% block content %}
+<div style=" max-width: 100%;
+    overflow-x: hidden;">
+    <nav class="a1">
+        <div class="nav-wrapper">
+            <ul class="left hide-on-med-and-down">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Club</a></li>
+                <li><a href="#">Hostel</a></li>
+                <li><a href="#">DAC</a></li>
+                <li><a href="#">Suggestions</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--// tushar add content here-->
+    <!--//START-->
+    <div>
+        <div class="row center">
+            <h3>News</h3>
+        </div>
+        <div class="row">
+            <div class="col s4 m4">
+
+                <ul class="collapsible">
+                    <li class="active">
+                        <div class="collapsible-header">April 16, 2018</div>
+                        <div class="collapsible-body"><span>Leadership Talk : Prof. Deshdeep Sahdev</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">April 07, 2018</div>
+                        <div class="collapsible-body"><span>Closing Ceremony (Techno-Cultural Fest)</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">April 05, 2018</div>
+                        <div class="collapsible-body"><span>Opening Ceremony (Techno-Cultural Fest)</span></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col s8 m8">
+                <div class="card">
+                    <h3 class="center">Description</h3>
+                    <div class="row">
+                        <div class="col s4 m4">
+
+                            <p class="hello">
+                                News
+                            </p>
+                            <p>
+
+                            </p>
+                        </div>
+                        </div>
+                        <div class="col s8 m8">
+                            <img src="{% static 'images/12.jpg' %}" alt="hello">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--//END-->
+{% endblock %}

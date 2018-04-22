@@ -1,0 +1,78 @@
+.a1{
+  background: #ffffff!important;
+  position: relative;
+}
+
+.a1 a{
+    color: #000000!important;
+    padding-left:20px;
+}
+.a1 a:active{
+    border-bottom: 2px solid #fff;
+}
+
+
+.news{
+width:900px!important;
+padding-right:0px!important;
+float:left;
+}
+
+.card{
+padding-left:0px!important;
+width:900px!important;
+float:left;
+}
+
+.card-image{
+padding-left:100px!important;
+padding-right:100px!important;
+width:600px!important;
+}
+
+.news-recent{
+width:400px;
+margin-left:900px;
+padding-left:50px;
+}
+
+#first {
+    width: 350px;
+    float: left;
+    height: 200px;
+        border:1px solid #000;
+		 margin-left: 20px;
+		 margin-top: 20px;
+}
+#second {
+    width: 700px;
+    float: left;
+    height: 200px;
+    border:1px solid #000;
+		 margin-left: 20px;
+		 margin-top: 20px;
+}
+#third {
+    width: 350px;
+    float: left;
+    height: 200px;
+    border:1px solid #000;
+		 margin-left: 20px;
+		 margin-top: 20px;
+}
+#fourth {
+    width: 1492px;
+    height: 397px;
+    border:1px solid #000;
+		 margin-left: 20px;
+		 margin-top: 20px;
+		 margin-bottom: 20px;
+}
+#fifth {
+    width: 1450px;
+    float: left;
+    height: 250px;
+    border:1px solid #000;
+		 margin-left: 20px;
+		 margin-top: 20px;
+}

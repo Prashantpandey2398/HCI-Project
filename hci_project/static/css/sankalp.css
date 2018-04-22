@@ -1,0 +1,38 @@
+.a1{
+  background: #ffffff!important;
+  position: relative;
+}
+
+.a1 a{
+    color: #000000!important;
+    padding-left:20px;
+}
+.a1 a:active{
+    border-bottom: 2px solid #fff;
+}
+
+
+.news{
+width:900px!important;
+padding-right:0px!important;
+float:left;
+}
+
+.card{
+padding-left:0px!important;
+width:900px!important;
+float:left;
+}
+
+.card-image{
+padding-left:100px!important;
+padding-right:100px!important;
+width:600px!important;
+}
+
+.news-recent{
+width:400px;
+margin-left:900px;
+padding-left:50px;
+}
+

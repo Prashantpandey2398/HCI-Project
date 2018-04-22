@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% extends 'sis/base.html' %}
+{% load staticfiles %}
+{% block css %}
+<link type="text/css" rel="stylesheet" href="{% static 'css/akshat.css' %}">
+<title>DAC</title>
+{% endblock %}
+{% block content %}
+
+<nav class="a1">
+    <div class="nav-wrapper">
+        <ul class="left hide-on-med-and-down">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Club</a></li>
+            <li><a href="#">Hostel</a></li>
+            <li><a href="#">DAC</a></li>
+            <li><a href="#">Suggestions and Complaints</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--akshat add content here-->
+<!--START-->
+<div class="row">
+    <div class="col m3 s12" id="first">
+
+        <h5>
+            <center>Personal Information</center>
+        </h5>
+        <h6>Name</h6>
+        <h6>Branch</h6>
+        <h6>Semester</h6>
+        <h6>E-Mail</h6>
+        <h6 style="margin-left:1.5em"> .</h6>
+        <h6 style="margin-left:1.5em"> .</h6>
+        <h6 style="margin-left:1.5em"> .</h6>
+        <h6 style="margin-left:1.5em"> .</h6>
+
+    </div>
+
+    <div class="col m4 s12">
+        <div id="second">
+
+            <h5>
+                <center>Upcoming Events</center>
+            </h5>
+            <h6>
+                <center>-Sci Mat Club</center>
+            </h6>
+            <h6 style="margin-left:3.5em">
+                <center>+Brain Storming</center>
+            </h6>
+            <h6 style="margin-left:3.5em">
+                <center>+Lan Party</center>
+            </h6>
+            <h6>
+                <center>-SATA Club</center>
+            </h6>
+            <h6>
+                <center>-Liquid Club</center>
+            </h6>
+
+        </div>
+
+        <div id="third">
+            <h5>
+                <center> DAC Details</center>
+            </h5>
+            <h6> DAC points&nbsp;&nbsp; :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 </h6>
+            <h6 style="margin-left:1.5em">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</h6>
+            <h6 style="margin-left:1.5em">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</h6>
+            <h6 style="margin-left:1.5em">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</h6>
+
+
+        </div>
+    </div>
+    <div class="col m5 s12">
+
+            <div id="four">
+
+                <h5>
+                    <center>Exam Schedule</center>
+                </h5>
+                <h6>
+                    <center>-Distributed Systems</center>
+                </h6>
+                <h6 style="margin-left:3.5em">
+                    <center>+Quiz-2</center>
+                </h6>
+                <h6 style="margin-left:3.5em">
+                    <center>+Project</center>
+                </h6>
+                <h6>
+                    <center>-Big Data Analysis</center>
+                </h6>
+                <h6 style="margin-left:3.5em">
+                    <center>+Quiz</center>
+                </h6>
+                <h6 style="margin-left:3.5em">
+                    <center>+Lab Exam</center>
+                </h6>
+            </div>
+
+            <div id="five">
+
+                <h5>
+                    <center>Hostel</center>
+                </h5>
+                <h6 style="margin-left:1.5em">Current hostel:</h6>
+                <h6 style="margin-left:1.5em">Room No. :</h6>
+                <h6 style="margin-left:1.5em">AC/Non-AC:</h6>
+                <button style="margin-left:1.5em; ">Request for hostel change</button>
+
+            </div>
+        </div>
+    </div>
+
+<!--END-->
+{% endblock %}
+{% block js %}{% endblock %}

@@ -1,0 +1,98 @@
+.a1{
+  background: #ffffff!important;
+  position: relative;
+}
+
+.a1 a{
+    color: #000000!important;
+    padding-left:20px;
+}
+.a1 a:active{
+    border-bottom: 2px solid #fff;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.leftpane {
+    width: 75%;
+    height: 530px;
+    float: left;
+    margin-top:20px;
+margin-bottom:20px;
+    border-collapse: collapse;
+}
+
+
+
+.rightpane {
+  width: 25%;
+  height: 530px;
+  position: relative;
+  float: right;
+  margin-top:20px;
+margin-bottom:20px;
+
+  border-collapse: collapse;
+}
+
+#leftsldider .carousel.carousel-slider .carousel-item{
+  text-align: center;
+}
+ .carousel.carousel-slider .carousel-item img{
+  max-height: 400px!important;
+  width: auto;
+  align-self: center;
+}
+
+#leftsldider{
+margin-top:10px!important;
+}
+
+#rightsldider{
+
+margin-top:10px!important;
+padding:10px;
+border: 1px solid #000;
+
+}
+
+.section{
+margin:10px;
+border: 1px solid #000;
+
+}
+
+.section h5{
+text-align: center;
+vertical-align: middle;
+line-height: 25px; /*
+position: relative;
+top: 50%;
+transform: translateY(-50%);*/
+}
+.section .event{
+font-weight: 900;
+text-align: center;
+vertical-align: middle;
+line-height: 20px;
+}
+
+.cgpa{
+text-align: center;
+vertical-align: middle;
+ /*
+position: relative;
+top: 50%;
+transform: translateY(-50%);*/
+}
+
+element {
+    background: #fff;
+}
+.carousel .indicators .indicator-item.active{
+background-color: red !important;
+border-color: green !important;
+}
